@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
-import join from './components/Join';
-import Chat from './components/Chat';
+import join from './components/Chat/Chat';
+import Chat from './components/Join/Join';
 
 const App = () => (  
     <Router>
